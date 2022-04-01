@@ -2,26 +2,63 @@
 {
 	margin: 0px;
 }
-
+body
+{
+   font-family: Verdana;
+}
 #headertop
 {
    height:50px;
    position:fixed;
    width:100%;
+   top: 0px;
+    z-index: 2;
    background-color: #09e042;
 }
 
-#headersecond
+#headertop #logo
 {
-   height:100px;
-   top:50px;
-   position: relative;
-   background-color: #9ad4d6;
+   float:left;
+   margin-left:2px;
 }
 
+#headertop #contact
+{
+  float:right;
+  margin-right:2px;
+}
+#headersecond
+{
+   height:50px;
+   top: 50px;
+   width: 100%;
+   position: fixed;
+    z-index: 2;
+   background-color: #9ad4d6;
+}
+#headersecond #menu ul
+{
+   margin-left: -40px;
+   margin-top: 15px;
+}
+#headersecond #menu ul li
+{
+   display: inline-block;
+   margin-left: 2px;
+}
+#headersecond #menu ul li a
+{
+   color:black;
+   font-size: 18px;
+   font-weight: bolder;
+   text-decoration: none;
+
+}
 #content
 {
 height:400px;
+overflow-y: scroll;
+margin-top: 100px;
 position: relative;
 padding: 2px;
 background-color: #2ca0a3;
@@ -55,4 +92,27 @@ background-color: #2ca0a3;
 	margin-left: 10px;
 	border:1px solid black;
 	float:left;
+}
+
+.footerpart #menu ul li
+{
+   margin-top: 20px;
+   margin-left: 50px;
+   list-style-type: none;
+}
+.footerpart #menu ul li a
+{
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+  
+}
+#footerlast
+{
+   height:50px;
+  
+   width:100%;
+   
+   
+  background-color: #9ad4d6;
 }
