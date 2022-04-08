@@ -1,0 +1,155 @@
+*
+{
+	margin: 0px;
+}
+body
+{
+   font-family: Arial;
+   color: white;
+   
+}
+#headertop
+{
+   height:50px;
+   position:fixed;
+   width:100%;
+   top: 0px;
+   z-index: 2;
+   background-color:  #a61505
+  
+}
+
+#headertop #logo
+{
+   float:left;
+   margin-left:2px;
+   padding-left: 70px;
+   padding-top: 15px;
+}
+
+#headertop #contact
+{
+  float:right;
+  margin-right:2px;
+  padding-right: 70px;
+  padding-top: 15px;
+  
+
+  
+}
+#headersecond
+{
+   height:130px;
+   top: 50px;
+   width: 100%;
+   position: fixed;
+    z-index: 2;
+   background-color: white
+   
+}
+#headersecond #image
+{
+   height:100px;
+   width:100px;
+   float:left;
+   padding-top : 15px;
+   padding-left:20px
+}
+
+#headersecond #menu ul
+{
+   margin-right: 150px;
+   margin-top: 50px;
+   float: right;
+
+}
+#headersecond #menu ul li
+{
+   display: inline-block;
+   margin-left: 25px;
+   
+}
+#headersecond #menu ul li a
+{
+   color :black;
+   font-size: 18px;
+   text-decoration: none;
+}
+#content
+{
+height:300px;
+margin-top: 150px;
+position: relative;
+padding-top: 30px;
+background-color: #2ca0a3;
+
+}
+.B1
+{
+
+
+   width = 100%;
+   height= 100;
+   float:left;
+   
+   
+}
+.break
+{
+   width: 19.7%; 
+   height: 250px; 
+ 
+   float: left
+
+   
+}
+
+#slider
+{
+   height:120px;
+   background-color: #9ad4d6;
+}
+#slider img
+{
+	height:120px;
+	width:200px;
+}
+#footer
+{
+    height:250px;
+  
+   background-color:hsl(271, 33%, 39%);
+   
+   ;
+}
+
+.footerpart
+{
+	width:23%;
+	height: 100%;
+	margin-left: 1px;
+	float:left;
+   
+
+}
+
+.footerpart #menu ul li
+{
+   margin-top: 20px;
+   margin-left: 10px;
+   list-style-type: none;
+   color:white;s
+}
+.footerpart #menu ul li a
+{
+   text-decoration: none;
+   font-size: 18px;
+   color: #f2f4f7;
+  
+}
+#footerlast
+{
+   height:50px;
+   width:100%;
+   background-color: #081f1f67;
+}

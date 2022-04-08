@@ -1,0 +1,82 @@
+*
+{
+	margin: 0px;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+ 
+   
+}
+
+
+	
+
+#form
+{
+	margin-top: 200px;
+	width:450px;
+	height: 800px;
+	background-color: white;
+	border-radius: 8px;
+	margin-left: 450px;
+}
+
+.inputtype1
+{
+	width:170px;
+	margin-left: 18px;
+	height: 35px;
+	margin-top: 50px;
+	border-radius: 5px;
+	background-color: white;
+	border-color: rgba(88, 86, 88, 0.397);
+	border-style:solid;
+}
+.inputtype2
+{
+	width:340px;
+	margin-left: 18px;
+	height: 35px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: white;
+	border-color: rgba(88, 86, 88, 0.397);
+	border-style:solid;
+}
+select 
+{
+width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="date"],select 
+{
+width: 60%;
+
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+input[type="radio"]
+{
+	width: 25%;
+
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn1
+{
+width:150px;
+	margin-left: 150px;
+	height: 40px;
+	margin-top: 30px;
+	border-radius: 5px;
+	background-color: rgb(7, 252, 39);
+}
